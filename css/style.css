@@ -130,11 +130,37 @@ div.column img{
     width: 100%;
 }
 
-.first-img:hover{
-    content: url(../img/1b.webp);
+div.bottom-row .column:nth-child(3) .sustainability{
+    left: 0px;
 }
 
 span.favourite{
     font-size: 1.5rem ;
     margin-left: 5px;
 }
+
+.first-img:hover{
+    content: url(../img/1b.webp);
+}
+
+.second-img:hover{
+    content: url(../img/2b.webp);
+}
+
+.third-img:hover{
+    content: url(../img/3b.webp);
+}
+
+.fourth-img:hover{
+    content: url(../img/4b.webp);
+}
+
+.fifth-img:hover{
+    content: url(../img/5b.webp);
+}
+
+.sixth-img:hover{
+    content: url(../img/6b.webp);
+}
+
+
