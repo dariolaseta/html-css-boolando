@@ -12,7 +12,11 @@ header{
 
 body{
     font-family: sans-serif;
-    font-size: 1.15rem;
+}
+
+main{
+    padding-top: 3rem;
+    width: 70%;
 }
 
 ul{
@@ -31,10 +35,6 @@ header div.logo img{
 .flex{
     display: flex;
     flex-direction: row;
-}
-
-.dashed-border{
-    border: 2px dashed black;
 }
 
 section.upper{
@@ -57,6 +57,15 @@ section.upper nav ul{
     justify-content: left;
 }
 
+.box{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
 section.upper nav ul li{
     margin-right: .5rem;
 }
@@ -71,4 +80,55 @@ section.upper div.icons{
 
 .background-orange{
     background-color: #ff6900;
+}
+
+.brand{
+    font-size: .85rem;
+}
+
+.description{
+    font-weight: bold;
+}
+
+.discount{
+    color: red;
+    font-weight: bold;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
+.discount-box{
+    width: 15%;
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    position: absolute;
+    bottom: 110px;
+}
+
+.sustainability{
+    background-color: green;
+    width: 30%;
+    padding: 5px 10px;
+    color: white;
+    position: absolute;
+    bottom: 110px;
+    left: 60px;
+}
+
+div.column{
+    width: calc(100% / 3);
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+div.column img{
+    width: 100%;
+}
+
+span.favourite{
+    font-size: 1.5rem ;
+    margin-left: 5px;
 }
