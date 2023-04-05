@@ -3,3 +3,72 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: #ff6900;
+    height: 50px;
+    color: white;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 1.15rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header div.logo img{
+    width: 50%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.dashed-border{
+    border: 2px dashed black;
+}
+
+section.upper{
+    width: 100%;
+    align-items: center;
+}
+
+section.upper>div{
+    width: 20%;
+    padding: .5rem 1rem;
+}
+
+section.upper nav {
+    width: 45%;
+}
+
+section.upper nav ul{
+    list-style-type: none;
+    padding: .5rem 1rem;
+    justify-content: left;
+}
+
+section.upper nav ul li{
+    margin-right: .5rem;
+}
+
+header div.icons img{
+    width: 20%;
+}
+
+section.upper div.icons{
+    text-align: right;
+}
+
+.background-orange{
+    background-color: #ff6900;
+}
