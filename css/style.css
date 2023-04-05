@@ -122,21 +122,16 @@ div.column{
     width: calc(100% / 3);
     height: 100%;
     margin-bottom: 2rem;
+    margin-right: 2rem;
     position: relative;
 }
 
-div.image{
-    background-image: url(../img/1.webp);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 550px;
+div.column img{
+    width: 100%;
 }
 
-div.image:hover{
-    background-image: url(../img/1b.webp);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 550px;
+.first-img:hover{
+    content: url(../img/1b.webp);
 }
 
 span.favourite{
