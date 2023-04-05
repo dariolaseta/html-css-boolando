@@ -163,4 +163,23 @@ span.favourite{
     content: url(../img/6b.webp);
 }
 
+footer{
+    background-color: black; 
+    color: white;
+}
 
+footer ul.flex{
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+footer section.container{
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.company-name,
+.socials{
+    padding: 1rem;
+}
